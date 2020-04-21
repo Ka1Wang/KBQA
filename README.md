@@ -17,8 +17,7 @@ tarfile
 （4）类初始化参数`file_name_list`，类型`list`，元素类型`str`。要使用的`.ttl`文件名列表。<br>
 （5）初始化结束后，在`DBpedia_path`目录下会生成`DBpedia_graph.tar`。
 ### 1.3. 类的使用
-（1）方法`get_entity_list()`。参数空。返回1个`list`，包含所有entity的URI。<br>
-（2）方法`get_edge(entity)`。参数entity的类型为`str`，是要查询的entity的URI。返回1个`list`，包含该entity的所有边。元素的类型是`dict`，说明如下
+（1）方法`get_edge(entity)`。参数entity的类型为`str`，是要查询的entity的URI。返回1个`list`，包含该entity的所有边。元素的类型是`dict`，说明如下
 ```
 {
   'direction': 'out' if 该entity是subject, or 'in' if 该entity是object
