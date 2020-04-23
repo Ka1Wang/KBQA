@@ -1,5 +1,5 @@
 # KBQA
-## 1. constraints_candidate_generation/DBpedia_preprocessing.py 的说明
+## 1. DBpedia_preprocessing.py 的说明
 ### 1.1. 包列表
 ```
 os
